@@ -1,0 +1,27 @@
+set deadlines:
+ - 7/1: register for ICONS conference
+   - Information available at https://icons.ornl.gov/register/
+ - 7/1: camera-ready submission due
+   - Expect more-detailed instructions by 6/18
+ - 7/8: presentation video due
+   - Expect more-detailed instructions by 6/18
+ - 7/28-30: conference
+
+goal waypoints:
+ - 6/12: initial draft of shortened paper
+   - Goal: <= 4 pages
+   - Find and fix 'grammar, typo, typesetting errors, vague pronouns, ill-formed sentences'
+ - 6/12: outline for presentation
+ - 6/26: final draft of shortened paper
+ - 6/26: register for ICONS
+ - 6/24: script for presentation video
+ - 6/26: initial presentation video
+ - 7/1: completed presentation video
+ - 7/6: submit presentation video
+ - 7/10: list of questions people seem likely to ask
+ - 7/13: list of papers from which I should know major takeaways
+ - 7/20: summaries of major takeaways, vocabulary, authors/titles of papers
+ - 7/24: memorize above summaries
+
+done:
+ - email Katie Schuman to confirm attendance and indicate who will present work

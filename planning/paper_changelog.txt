@@ -1,0 +1,33 @@
+ - Abstract: unchanged
+ - Introduction:
+   - TODO: move important information from deleted sections to introduction
+   - TODO: make sure sentences are efficient
+   - TODO: remove summaries of individual papers - just reference papers and give broad summaries
+ - Equilibrium propagation background:
+   - Deleted math described in original Scellier paper
+   - TODO: make sure important information (e.g. important parameters) are still included
+   - TODO: make sure sentences are efficient
+   - TODO: discuss important parameters in condensed subsection
+ - Vanishing gradient background:
+   - TODO: make sure sentences are efficient
+   - TODO: delete unimportant information
+   - TODO: remove summaries of individual papers - just reference papers and give broad summaries
+ - Small-world background: deleted
+   - TODO: make sure paper makes sense without it, e.g. algorithm
+   - TODO: reference small-world networks and influence in introduction
+ - Implementation:
+   - TODO: make sure sentences are efficient
+   - TODO: delete unimportant information
+   - TODO: reduce number of equations; reference well-known metrics (e.g. RMS) by name
+ - Results:
+   - TODO: make sure sentences are efficient
+   - TODO: delete unimportant information
+   - TODO: consider deleting error rate as connections are added
+ - Related work:
+   - TODO: make sure sentences are efficient
+   - TODO: minimize summary - list references, and give broad summaries
+ - Discussion and future research:
+   - TODO: make sure sentences are efficient
+   - TODO: delete unimportant information
+ - Small-world metrics appendix: deleted
+   - TODO: make sure background information makes sense without it
