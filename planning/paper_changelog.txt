@@ -5,6 +5,7 @@
    - removed summaries of individual papers - just reference papers and give broad summaries
  - Equilibrium propagation background:
    - Deleted math described in original Scellier paper
+   - Moved biological-plausibility overview from intro to this section
    - TODO: make sure important information (e.g. important parameters) are still included
    - TODO: make sure sentences are efficient
    - TODO: discuss important parameters in condensed subsection

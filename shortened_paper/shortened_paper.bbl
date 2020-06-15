@@ -88,11 +88,6 @@ Mitchell Nahmias, Bhavin Shastri, A.N. Tait, and P.R. Prucnal.
 \newblock {\em Selected Topics in Quantum Electronics, IEEE Journal of},
   19:1--12, 09 2013.
 
-\bibitem{oconnor2018}
-Peter O'Connor, Efstratios Gavves, and Max Welling.
-\newblock Training a network of spiking neurons with equilibrium propagation.
-\newblock 2018.
-
 \bibitem{pineda1987}
 {Fernando J} Pineda.
 \newblock Generalization of back-propagation to recurrent neural networks.
