@@ -1,0 +1,35 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Title}{1}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Motivation}{2}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Introduction}{5}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Procedure}{5}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Results}{5}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Conclusions}{5}{0}{6}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {7}{Introduction}{5}{0}{7}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {8}{Background}{11}{0}{8}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {8}{1}{Equilibrium propagation}{11}{0}{8}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {8}{2}{Vanishing gradient problem}{19}{0}{8}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {9}{Solution}{26}{0}{9}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {9}{1}{Description}{26}{0}{9}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {9}{2}{Original topology illustration}{29}{0}{9}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {10}{Results}{34}{0}{10}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {10}{1}{Performance comparison between topologies}{34}{0}{10}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {10}{2}{Layer training rate comparison between topologies}{37}{0}{10}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {11}{Directions for future research}{41}{0}{11}
