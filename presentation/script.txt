@@ -1,0 +1,55 @@
+ - Hi, I'm going to be talking about a topological modification we have found helps layered networks train using the Equilibrium Propagation learning framework.
+ - Equilibrium propagation is a biologically-motivated learning framework that trains networks through gradient descent on a cost function, so in that sense it is an alternative to backpropagation.
+ - It is applicable to energy-based networks, and in the original paper and in our work it was used to train a continuous Hopfield network.
+ - Seminal paper was by Benjamin Scellier and Yoshua Bengio, called Equilibrium Propagation: Bridging the Gap Between Energy-Based Models and Backpropagation
+ - Primary advantage over backpropagation is the simplicity of the neurons that implement this framework.
+ - Only needs to perform one computation in both phases of training, whereas in backpropagation neurons would need to compute their activation values during the forward-correction phase of training and error-correction terms during the backpropagation phase.
+ - On similar note, only to transmit one type of information - activation of a neuron - using one bidirectional connection, whereas in backpropagation distinct types of information are transmitted
+ - For these reasons, biologically-plausible and would be convenient and natural to implement in neuromorphic analog hardware
+ - In original implementation of equilibrium propagation, vanishing gradient problem on layered networks
+ - Problem because leads to slower training, could cause issues in hardware with a limited bit depth
+ - Networks with state-of-the-art performance on difficult datasets are very deep, so important to overcome this problem
+ - Problem has not yet been solved in a simple, biologically-plausible manner
+ - In original paper, problem overcome by using independent learning rates for each layer
+ - Unappealing for a few reasons:
+   - First, introduces more hyperparameters - N additional hyperparameters, where N is number of hidden layers
+   - Secondly, would be inconvenient to implement and tune in neuromorphic hardware
+   - Lastly, seems unlikely to occur in a biological brain - added complexity for each neuron
+ - Solution we came up with is a topological modification based on adding layer-skipping connections to a layered network
+ - This solution avoids the three problems I just mentioned
+   - First problem: only adds two new hyperparameters, which are number of layer-skipping connections you want, and initial weights for connections that differ from conventional layout
+   - Second: resulting networks tend to be small-world, which have been observed in biological brains
+   - Third: would be easy to use in neuromorphic implementation of equilibrium propagation; neurons already need capability to connect to each other
+ - Found that substantially increases training speed of networks, and increases uniformity with which each network trains
+ - Performance is similar to that of networks with solution from original paper
+ - Shown is an illustration of topology of original network
+ - Notice that this is a layered network where each pair of neurons in adjacent layers is connected, with no connections on top of that
+ - Also notice that learning rate increases with depth relative to the output layer, to compensate for exponential decrease in rate at which layers train
+ - In order to generate our topology, we use that network as a starting point, with a single learning rate for all layers
+ - We fully connect each of the hidden layers in the network - this allows layer-skipping connections to substantially decrease the path length not only between selves, but between other neurons in those layers
+ - Next we consider each neuron in the network and remove it with some probability p
+ - Finally, for each connection we removed we randomly add a new connection
+ - When we do this we do not allow connections within the input and output layers, and allow only one connection between each pair of neurons
+ - Now I'll talk about how effective this modification is at solving the vanishing gradient problem
+ - In this slide is the network with the solution originally introduced in the paper, as a point of reference
+ - With single learning rate and no other modifications, network trains much slower and doesn't converge to stable error rates within 250 epochs
+ - With our modification to the topology, and p=.0756, trains almost as effectively as network with original solution
+ - Converges to about the same error rates after around 25% more epochs
+ - Here I'll show the size of the corrections to weights between each pair of layers of the network
+ - Shown are the root-mean-square corrections to a weight connecting a given pair of layers
+ - For the network with layered topology and single global learning rate, size of corrections vanishes with distance from output layer
+ - Can see that use of per-layer learning rates is very effective at promoting uniformity
+ - When we implement our solution deeper layers train in a more-uniform way, though output layer still trains substantially faster than deeper layers
+ - Our explanation for this is that layer-skipping connections do not connect to target layer, so output layer always connects to it through shorter path
+ - To summarize: our topology increases the rate at which networks train using equilibrium propagation
+ - Training rate is much faster than that of a layered network with a single learning rate
+ - Rate is a bit slower than that of network with solution from original paper, but still close to the same performance
+ - Layers train in a more-uniform manner, although output still trains faster due to no connections to target layer
+ - Advantageous over original solution in applications where simplicity of neurons and biological plausibility of network is important
+ - A few directions in which it would be interesting to take this research
+ - Would be good to try on harder datasets like CIFAR and ImageNet - we expect that for large p there will be costs related to loss of layered nature of network
+   - Not necessarily captured when training on MNIST, since so easy to perform well on
+ - See effect of p on test error
+ - Evaluate effectiveness on deeper networks - 3 hidden layers isn't very many
+ - Try training a network after adding layer-skipping connections, then replacing these connections, then possibly a bit more training
+   - Found little difference between replacing and adding connections

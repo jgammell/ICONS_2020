@@ -18,133 +18,97 @@
 
 \section{Motivation} % 1-2 slides
 \begin{frame}
+	\frametitle{Motivation: appeal of equilibrium propagation}
 	\begin{itemize}
-		\item<1-> Equilibrium propagation\autocite{scellier17}: biologically-motivated learning framework
+		\item<1-> Equilibrium propagation\autocite{scellier17}: a biologically-motivated learning framework
 		\begin{itemize}
-			\item<2-> Simple neurons relative to backpropagation
-			\item<3-> Potential application of neuromorphic analog hardware
+			\item<2-> Gradient descent on cost function (alternative to backpropagation)
+			\item<3-> Energy-based networks, e.g. continuous Hopfield network
+		\end{itemize}
+		\item<4-> Advantageous due to simplicity of neurons
+		\begin{itemize}
+			\item<5-> One computation in both phases of training
+			\item<6-> One type of information to transmit in both phases of training
+			\item<7-> Biologically plausible (relative to backpropagation)
+			\item<8-> Implementable in neuromorphic analog hardware
 		\end{itemize}
 	\end{itemize}
-
+\end{frame}
+\begin{frame}
+	\frametitle{Motivation: vanishing gradient problem}
+	\begin{itemize}
+		\item<1-> Problem: vanishing gradients in layered networks
+		\begin{itemize}
+			\item<2-> Leads to slow training
+			\item<3-> Potential bit-depth issues
+			\item<4-> State-of-the-art performance by deep networks
+		\end{itemize}
+		\item<5-> Not yet solved in simple, biologically-plausible manner
+		\item<6-> Original paper: manually tune independent learning rate for each layer
+		\item<7-> Per-layer rates unappealing for following reasons:
+		\begin{enumerate}
+			\item<8-> More hyperparameters to tune
+			\item<9-> Inconvenient in neuromorphic hardware
+			\item<10-> Seems unlikely in biological systems
+		\end{enumerate}
+	\end{itemize}
 \end{frame}
 
 \section{Introduction} % 1-2 slides
-
-\section{Procedure} % 1-2 slides
-
-\section{Results} % 3-4 slides
-
-\section{Conclusions} % 1-2 slides
-
-
-
-\section{Introduction}
 \begin{frame}
-	\frametitle{Introduction}
 	\begin{itemize}
-		\item<1-> Equilibrium propagation is a biologically-motivated learning framework
-		\item<2-> Appealing as potential application for neuromorphic analog hardware
-		\item<3-> Vanishing gradient problem with conventional layered network topology
-		\item<4-> We will show that adding layer-skipping connections can help solve the problem
-		\begin{itemize}
-			\item<5-> Still biologically-plausible
-			\item<6-> Simple to implement in hardware with configurable connectivity
-		\end{itemize}
-	\end{itemize}
-\end{frame}
-
-\section{Background}
-\subsection{Equilibrium propagation}
-\begin{frame}
-	\frametitle{Background: equilibrium propagation}
-	\begin{itemize}
-		\item<1-> Seminal paper: Equilibrium Propagation: Bridging the Gap Between Energy-Based Models and Backpropagation by Benjamin Scellier and Yoshua Bengio
-		\item<2-> Biologically-motivated learning framework
-		\begin{itemize}
-			\item<3-> For energy-based networks, e.g. continuous Hopfield network
-			\item<4-> Gradient descent on cost function
-		\end{itemize}
-		\item<5-> More biologically-plausible than backpropagation
-		\begin{itemize}
-			\item<6-> Neurons only need to communicate activation values, not error-correction information
-			\item<7-> Prediction (free) and correction (weakly-clamped) phases use same type of computation
-		\end{itemize}
-		\item<8-> For same reasons, appealing for implementation on neuromorphic analog hardware
-	\end{itemize}
-\end{frame}
-
-\subsection{Vanishing gradient problem}
-\begin{frame}
-	\frametitle{Background: vanishing gradient problem}
-	\begin{itemize}
-		\item<1-> Vanishing gradient problem in conventional layered networks
-		\begin{itemize}
-			\item<2-> Leads to slow training
-			\item<3-> Potential issues in systems with limited bit depth
-		\end{itemize}
-		\item<4-> Original paper solved by manually tuning an independent learning rate for each layer - unappealing solution
-		\begin{itemize}
-			\item<5-> More hyperparameters to tune
-			\item<6-> Inconvenient to implement in neuromorphic analog hardware
-			\item<7-> Seems unlikely to happen in biological systems
-		\end{itemize}
+		\frametitle{Introduction}
+		\item<1-> Our solution: modified topology including layer-skipping connections
+		\item<2-> Addresses above issues with per-layer rates
+		\begin{enumerate}
+			\item<3-> Two new hyperparameters; constant with depth
+			\item<4-> Inspired by small-world topology - observed in biological brains
+			\item<5-> Easy to implement in networks with configurable connectivity
+		\end{enumerate}
+		\item<6-> Improves network training speed
+		\item<7-> Increases uniformity with which each layer trains
+		\item<8-> Performance similar to that of per-layer rates
 	\end{itemize}
 \end{frame}
 
 \section{Solution}
-\subsection{Description}
-\begin{frame}
-	\frametitle{Our solution: layer-skipping connections}
-	\begin{itemize}
-		\item<1-> Our solution: modify layered topology by adding random layer-skipping connections
-		\begin{itemize}
-			\item<2-> Inspired by small-world topology, but little correlation with common small-worldness metrics (e.g. characteristic path length, clustering coefficient, small-world coefficient)
-			\item<3-> Could be conveniently implemented in neuromorphic systems with configurable connectivity
-		\end{itemize}
-	\end{itemize}
-\end{frame}
 
 \subsection{Original topology illustration}
 \begin{frame}
-	\frametitle{Conventional layered topology}
-	\begin{figure}
+	\frametitle{Original topology}
+	\begin{center}
 		\includegraphics[width=.8\textwidth]{figures/basic_topology_illustration.pdf}
-	\end{figure}
+	\end{center}
 	\begin{itemize}
-		\item Topology used in original paper
-		\item Independently-tuned learning rates for each layer
+		\item From original paper
+		\item Per-layer learning rates
 	\end{itemize}
 \end{frame}
 
 \begin{frame} 
 	\frametitle{Our topological modifications}
-	\begin{textblock*}{.8\textwidth}[.5, .5](.5\paperwidth,.425\paperheight)
 		\begin{center}
-		\includegraphics[width=\textwidth]{figures/topology_changes_step1.pdf}<1>
-		\includegraphics[width=\textwidth]{figures/topology_changes_step2.pdf}<2>
-		\includegraphics[width=\textwidth]{figures/topology_changes_step3.pdf}<3>
-		\includegraphics[width=\textwidth]{figures/topology_changes_step4.pdf}<4>
+		\includegraphics[width=.8\textwidth]{figures/topology_changes_step1.pdf}<1|only@1>
+		\includegraphics[width=.8\textwidth]{figures/topology_changes_step2.pdf}<2|only@2>
+		\includegraphics[width=.8\textwidth]{figures/topology_changes_step3.pdf}<3|only@3>
+		\includegraphics[width=.8\textwidth]{figures/topology_changes_step4.pdf}<4|only@4>
 		\end{center}
-	\end{textblock*}
-	\begin{textblock*}{\textwidth}[.5, .5](.5\paperwidth, .825\paperheight)
 		\begin{itemize}
-			\item<1|only@1> Use original topology as starting point
-			\item<1|only@1> Single global learning rate across all layers
+			\item<1|only@1> Starting point: original topology
+			\item<1|only@1> One learning rate for all layers
 		\end{itemize}
 		\begin{itemize}
-			\item<2|only@2> Make hidden layers fully-connected
+			\item<2|only@2> Hidden layers fully-connected
+			\item<2|only@2>[]
 		\end{itemize}
 		\begin{itemize}
-			\item<3|only@3> Consider each connection and remove with probability $p$
+			\item<3|only@3> Consider each connection
+			\item<3|only@3> Remove with probability $p$
 		\end{itemize}
 		\begin{itemize}
-			\item<4|only@4> For each removed connection, randomly connect two separated neurons
-			\begin{itemize}
-				\item<4|only@4> Only 1 connection per pair
-				\item<4|only@4> No connections within input or output layers
-			\end{itemize}
+			\item<4|only@4> For each removed connection, randomly connect different pair
+			\item<4|only@4> No connections in input or output layers
 		\end{itemize}
-	\end{textblock*}
 \end{frame}
 
 \section{Results}
@@ -189,21 +153,30 @@
 
 \begin{frame}
 	\frametitle{Results: takeaways}
+	\begin{itemize}
+		\item<1-> Our topology increases training speed
+		\begin{itemize}
+			\item<2-> Much faster than original topology, one learning rate
+			\item<3-> Slightly slower than per-layer rates
+		\end{itemize}
+		\item<4-> Layers train in more-uniform manner
+		\begin{itemize}
+			\item<5-> Output layer faster - no added connections to target layer
+		\end{itemize}
+		\item<6-> Good solution where simplicity, biological plausibility are important
+			
+	\end{itemize}
 \end{frame}
 
 \section{Directions for future research}
 \begin{frame}
 	\frametitle{Directions for future research}
 	\begin{itemize}
-		\item<1-> Evaluate effectiveness on harder datasets, e.g. CIFAR, ImageNet, where network depth is very important
-		\item<2-> Evaluate effect of $p$ on network test error
-		\item<3-> Evaluate effectiveness on deeper networks
+		\item<1-> Try on harder datasets (e.g. CIFAR, ImageNet) where depth is very important
+		\item<2-> Effect of $p$ on test error
+		\item<3-> Effectiveness on deeper networks
 		\item<4-> Try training a network with added layer-skipping connections, then removing them afterwards
 	\end{itemize}
-\end{frame}
-
-\begin{frame} % references slide
-
 \end{frame}
 
 \end{document}
