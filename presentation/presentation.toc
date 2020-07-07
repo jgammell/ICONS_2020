@@ -6,12 +6,12 @@
 \defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {2}{1}{Original topology illustration}{34}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Results}{39}{0}{3}
+\beamer@sectionintoc {3}{Results}{43}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{1}{Performance comparison between topologies}{39}{0}{3}
+\beamer@subsectionintoc {3}{1}{Performance comparison between topologies}{43}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{2}{Layer training rate comparison between topologies}{42}{0}{3}
+\beamer@subsectionintoc {3}{2}{Layer training rate comparison between topologies}{50}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Directions for future research}{51}{0}{4}
+\beamer@sectionintoc {4}{Directions for future research}{59}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Acknowledgments}{55}{0}{5}
+\beamer@sectionintoc {5}{Acknowledgments}{63}{0}{5}

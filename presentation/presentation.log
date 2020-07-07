@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6) (preloaded format=pdflatex 2020.6.29)  7 JUL 2020 11:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6) (preloaded format=pdflatex 2020.6.29)  7 JUL 2020 11:36
 entering extended mode
 **./presentation.tex
 (presentation.tex
@@ -1477,13 +1477,21 @@ pdfTeX warning: pdflatex (file ./figures/basic_topology_illustration.pdf): PDF
 inclusion: invalid other resource which is no dict (key 'ProcSets', type <array
 >); ignored.
 >]
-<figures/topology_changes_step1.pdf, id=966, 813.0375pt x 465.65968pt>
+File: figures/basic_topology_illustration.pdf Graphic file (type pdf)
+<use figures/basic_topology_illustration.pdf>
+Package pdftex.def Info: figures/basic_topology_illustration.pdf  used on input
+ line 163.
+(pdftex.def)             Requested size: 184.3758pt x 105.59312pt.
+ [35
+
+]
+<figures/topology_changes_step1.pdf, id=991, 813.0375pt x 465.65968pt>
 File: figures/topology_changes_step1.pdf Graphic file (type pdf)
 <use figures/topology_changes_step1.pdf>
 Package pdftex.def Info: figures/topology_changes_step1.pdf  used on input line
  178.
 (pdftex.def)             Requested size: 184.3758pt x 105.59312pt.
- [35
+ [36
 
  <./figures/topology_changes_step1.pdf
 
@@ -1491,13 +1499,21 @@ pdfTeX warning: pdflatex (file ./figures/topology_changes_step1.pdf): PDF inclu
 sion: invalid other resource which is no dict (key 'ProcSets', type <array>); i
 gnored.
 >]
-<figures/topology_changes_step2.pdf, id=1001, 813.0375pt x 465.65968pt>
+File: figures/topology_changes_step1.pdf Graphic file (type pdf)
+<use figures/topology_changes_step1.pdf>
+Package pdftex.def Info: figures/topology_changes_step1.pdf  used on input line
+ 178.
+(pdftex.def)             Requested size: 184.3758pt x 105.59312pt.
+ [37
+
+]
+<figures/topology_changes_step2.pdf, id=1052, 813.0375pt x 465.65968pt>
 File: figures/topology_changes_step2.pdf Graphic file (type pdf)
 <use figures/topology_changes_step2.pdf>
 Package pdftex.def Info: figures/topology_changes_step2.pdf  used on input line
  191.
 (pdftex.def)             Requested size: 184.3758pt x 105.59312pt.
- [36
+ [38
 
  <./figures/topology_changes_step2.pdf
 
@@ -1505,13 +1521,13 @@ pdfTeX warning: pdflatex (file ./figures/topology_changes_step2.pdf): PDF inclu
 sion: invalid other resource which is no dict (key 'ProcSets', type <array>); i
 gnored.
 >]
-<figures/topology_changes_step3.pdf, id=1039, 813.0375pt x 465.65968pt>
+<figures/topology_changes_step3.pdf, id=1090, 813.0375pt x 465.65968pt>
 File: figures/topology_changes_step3.pdf Graphic file (type pdf)
 <use figures/topology_changes_step3.pdf>
 Package pdftex.def Info: figures/topology_changes_step3.pdf  used on input line
  205.
 (pdftex.def)             Requested size: 184.3758pt x 105.59312pt.
- [37
+ [39
 
  <./figures/topology_changes_step3.pdf
 
@@ -1519,13 +1535,21 @@ pdfTeX warning: pdflatex (file ./figures/topology_changes_step3.pdf): PDF inclu
 sion: invalid other resource which is no dict (key 'ProcSets', type <array>); i
 gnored.
 >]
-<figures/topology_changes_step4.pdf, id=1077, 813.0375pt x 465.65968pt>
+File: figures/topology_changes_step3.pdf Graphic file (type pdf)
+<use figures/topology_changes_step3.pdf>
+Package pdftex.def Info: figures/topology_changes_step3.pdf  used on input line
+ 205.
+(pdftex.def)             Requested size: 184.3758pt x 105.59312pt.
+ [40
+
+]
+<figures/topology_changes_step4.pdf, id=1153, 813.0375pt x 465.65968pt>
 File: figures/topology_changes_step4.pdf Graphic file (type pdf)
 <use figures/topology_changes_step4.pdf>
 Package pdftex.def Info: figures/topology_changes_step4.pdf  used on input line
  219.
 (pdftex.def)             Requested size: 184.3758pt x 105.59312pt.
- [38
+ [41
 
  <./figures/topology_changes_step4.pdf
 
@@ -1533,49 +1557,89 @@ pdfTeX warning: pdflatex (file ./figures/topology_changes_step4.pdf): PDF inclu
 sion: invalid other resource which is no dict (key 'ProcSets', type <array>); i
 gnored.
 >]
-<figures/performance_original.pdf, id=1113, 289.08pt x 178.66502pt>
+File: figures/topology_changes_step4.pdf Graphic file (type pdf)
+<use figures/topology_changes_step4.pdf>
+Package pdftex.def Info: figures/topology_changes_step4.pdf  used on input line
+ 219.
+(pdftex.def)             Requested size: 184.3758pt x 105.59312pt.
+ [42
+
+]
+<figures/performance_original.pdf, id=1213, 289.08pt x 178.66502pt>
 File: figures/performance_original.pdf Graphic file (type pdf)
 <use figures/performance_original.pdf>
 Package pdftex.def Info: figures/performance_original.pdf  used on input line 2
 36.
 (pdftex.def)             Requested size: 184.3758pt x 113.95264pt.
- [39
+ [43
 
  <./figures/performance_original.pdf>]
-<figures/performance_original+global.pdf, id=1179, 289.08pt x 178.66502pt>
+File: figures/performance_original.pdf Graphic file (type pdf)
+<use figures/performance_original.pdf>
+Package pdftex.def Info: figures/performance_original.pdf  used on input line 2
+36.
+(pdftex.def)             Requested size: 184.3758pt x 113.95264pt.
+ [44
+
+]
+<figures/performance_original+global.pdf, id=1305, 289.08pt x 178.66502pt>
 File: figures/performance_original+global.pdf Graphic file (type pdf)
 <use figures/performance_original+global.pdf>
 Package pdftex.def Info: figures/performance_original+global.pdf  used on input
  line 250.
 (pdftex.def)             Requested size: 184.3758pt x 113.95264pt.
- [40
+ [45
 
  <./figures/performance_original+global.pdf>]
-<figures/performance_original+global+ours.pdf, id=1241, 289.08pt x 178.66502pt>
+File: figures/performance_original+global.pdf Graphic file (type pdf)
+<use figures/performance_original+global.pdf>
+Package pdftex.def Info: figures/performance_original+global.pdf  used on input
+ line 250.
+(pdftex.def)             Requested size: 184.3758pt x 113.95264pt.
+ [46
+
+]
+<figures/performance_original+global+ours.pdf, id=1393, 289.08pt x 178.66502pt>
 
 File: figures/performance_original+global+ours.pdf Graphic file (type pdf)
 <use figures/performance_original+global+ours.pdf>
 Package pdftex.def Info: figures/performance_original+global+ours.pdf  used on 
 input line 265.
 (pdftex.def)             Requested size: 184.3758pt x 113.95264pt.
- [41
+ [47
 
  <./figures/performance_original+global+ours.pdf>]
-<figures/perlayer_global.pdf, id=1308, 281.7542pt x 201.00594pt>
+File: figures/performance_original+global+ours.pdf Graphic file (type pdf)
+<use figures/performance_original+global+ours.pdf>
+Package pdftex.def Info: figures/performance_original+global+ours.pdf  used on 
+input line 265.
+(pdftex.def)             Requested size: 184.3758pt x 113.95264pt.
+ [48
+
+]
+File: figures/performance_original+global+ours.pdf Graphic file (type pdf)
+<use figures/performance_original+global+ours.pdf>
+Package pdftex.def Info: figures/performance_original+global+ours.pdf  used on 
+input line 265.
+(pdftex.def)             Requested size: 184.3758pt x 113.95264pt.
+ [49
+
+]
+<figures/perlayer_global.pdf, id=1510, 281.7542pt x 201.00594pt>
 File: figures/perlayer_global.pdf Graphic file (type pdf)
 <use figures/perlayer_global.pdf>
 Package pdftex.def Info: figures/perlayer_global.pdf  used on input line 279.
 (pdftex.def)             Requested size: 184.3758pt x 131.53561pt.
- [42
+ [50
 
  <./figures/perlayer_global.pdf>]
-<figures/perlayer_global+ours.pdf, id=1378, 281.7542pt x 201.24745pt>
+<figures/perlayer_global+ours.pdf, id=1580, 281.7542pt x 201.24745pt>
 File: figures/perlayer_global+ours.pdf Graphic file (type pdf)
 <use figures/perlayer_global+ours.pdf>
 Package pdftex.def Info: figures/perlayer_global+ours.pdf  used on input line 2
 93.
 (pdftex.def)             Requested size: 184.3758pt x 131.69366pt.
- [43
+ [51
 
  <./figures/perlayer_global+ours.pdf>]
 File: figures/perlayer_global+ours.pdf Graphic file (type pdf)
@@ -1583,41 +1647,40 @@ File: figures/perlayer_global+ours.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/perlayer_global+ours.pdf  used on input line 2
 93.
 (pdftex.def)             Requested size: 184.3758pt x 131.69366pt.
- [44
-
-]
-[45
-
-] [46
-
-] [47
-
-] [48
-
-] [49
-
-] [50
-
-] [51
-
-] [52
+ [52
 
 ] [53
 
 ] [54
 
+] [55
+
+] [56
+
+] [57
+
+] [58
+
+] [59
+
+] [60
+
+] [61
+
+] [62
+
 ]
-<figures/nist_logo.png, id=1729, 647.41875pt x 170.6375pt>
+<figures/nist_logo.png, id=1931, 647.41875pt x 170.6375pt>
 File: figures/nist_logo.png Graphic file (type png)
 <use figures/nist_logo.png>
 Package pdftex.def Info: figures/nist_logo.png  used on input line 339.
 (pdftex.def)             Requested size: 117.9987pt x 31.09877pt.
-<figures/cu_logo.jpg, id=1730, 200.75pt x 200.75pt>
+<figures/cu_logo.jpg, id=1932, 200.75pt x 200.75pt>
 File: figures/cu_logo.jpg Graphic file (type jpg)
 <use figures/cu_logo.jpg>
 Package pdftex.def Info: figures/cu_logo.jpg  used on input line 339.
 (pdftex.def)             Requested size: 117.9987pt x 118.00037pt.
- [55
+ [63
 
  <./figures/nist_logo.png> <./figures/cu_logo.jpg>]
 \tf@nav=\write7
@@ -1635,14 +1698,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 341.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 341.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 341.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 7467642E95A691F8F8BBB9024AAA33F6;510.
+(rerunfilecheck)             Checksum: 9468039F878C7F363C15E015B978BA9E;510.
 Package logreq Info: Writing requests to 'presentation.run.xml'.
 \openout1 = `presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24665 strings out of 480756
- 482799 string characters out of 2893797
+ 24681 strings out of 480756
+ 482951 string characters out of 2893797
  925996 words of memory out of 3000000
  40057 multiletter control sequences out of 15000+200000
  544835 words of font info for 69 fonts, out of 3000000 for 9000
@@ -1654,9 +1717,9 @@ blic/amsfonts/cm/cmss12.pfb><C:/Users/jgamm/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/jgamm/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/jgamm/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on presentation.pdf (55 pages, 905571 bytes).
+Output written on presentation.pdf (63 pages, 949465 bytes).
 PDF statistics:
- 1803 PDF objects out of 2073 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
+ 2007 PDF objects out of 2073 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
  187 words of extra memory for PDF output out of 10000 (max. 10000000)
 
