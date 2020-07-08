@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6) (preloaded format=pdflatex 2020.6.29)  29 JUN 2020 14:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6) (preloaded format=pdflatex 2020.6.29)  8 JUL 2020 11:55
 entering extended mode
 **./shortened_paper.tex
 (shortened_paper.tex
@@ -1106,9 +1106,6 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 8.0pt on input line 70.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 8.0pt on input line 70.
-
-LaTeX Warning: Reference `TotPages' on page 1 undefined on input line 70.
-
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 70.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
@@ -1230,7 +1227,7 @@ Package natbib Warning: Citation `ioffe2015' on page 2 undefined on input line
 Package natbib Warning: Citation `scellier17' on page 2 undefined on input line
  97.
 
-<figures/basic_topology_illustration.pdf, id=49, 819.06pt x 534.07532pt>
+<figures/basic_topology_illustration.pdf, id=87, 819.06pt x 534.07532pt>
 File: figures/basic_topology_illustration.pdf Graphic file (type pdf)
 <use figures/basic_topology_illustration.pdf>
 Package pdftex.def Info: figures/basic_topology_illustration.pdf  used on input
@@ -1251,7 +1248,7 @@ Class acmart Warning: A possible image without description on input line 107.
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 109.
 
-<figures/topology_changes_illustration.pdf, id=50, 819.06pt x 534.07532pt>
+<figures/topology_changes_illustration.pdf, id=88, 819.06pt x 534.07532pt>
 File: figures/topology_changes_illustration.pdf Graphic file (type pdf)
 <use figures/topology_changes_illustration.pdf>
 Package pdftex.def Info: figures/topology_changes_illustration.pdf  used on inp
@@ -1283,10 +1280,6 @@ Package natbib Warning: Citation `scellier17' on page 2 undefined on input line
 
 Package natbib Warning: Citation `glorot2010' on page 2 undefined on input line
  127.
-
-
-LaTeX Warning: Reference `sec:basic_topology' on page 2 undefined on input line
- 132.
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 134.

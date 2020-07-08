@@ -13,119 +13,131 @@
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {2}{4}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{0}{3}{5/10}{}{0}}
+\headcommand {\slideentry {1}{0}{3}{5/9}{}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {5}{10}}
+\headcommand {\beamer@framepages {5}{9}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{0}{4}{11/14}{}{0}}
+\headcommand {\slideentry {1}{0}{4}{10/12}{}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {11}{14}}
+\headcommand {\beamer@framepages {10}{12}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{0}{5}{15/19}{}{0}}
+\headcommand {\slideentry {1}{0}{5}{13/16}{}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {15}{19}}
+\headcommand {\beamer@framepages {13}{16}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{0}{6}{20/24}{}{0}}
+\headcommand {\slideentry {1}{0}{6}{17/21}{}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {20}{24}}
+\headcommand {\beamer@framepages {17}{21}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{0}{7}{25/31}{}{0}}
+\headcommand {\slideentry {1}{0}{7}{22/26}{}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {25}{31}}
+\headcommand {\beamer@framepages {22}{26}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{0}{8}{32/33}{}{0}}
+\headcommand {\slideentry {1}{0}{8}{27/32}{}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {32}{33}}
+\headcommand {\beamer@framepages {27}{32}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {1}{33}}
+\headcommand {\slideentry {1}{0}{9}{33/34}{}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {1}{33}}
+\headcommand {\beamer@framepages {33}{34}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {2}{Solution}{34}{Solution}{0}}
+\headcommand {\beamer@sectionpages {1}{34}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {34}{33}}
+\headcommand {\beamer@subsectionpages {1}{34}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{2}{1}{34}{Original topology illustration}}
+\headcommand {\sectionentry {2}{Solution}{35}{Solution}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{1}{1}{34/35}{Original topology illustration}{0}}
+\headcommand {\beamer@subsectionpages {35}{34}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {34}{35}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{35}{Original topology illustration}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{1}{2}{36/37}{Original topology illustration}{0}}
+\headcommand {\slideentry {2}{1}{1}{35/35}{Original topology illustration}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {36}{37}}
+\headcommand {\beamer@framepages {35}{35}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{1}{3}{38/38}{Original topology illustration}{0}}
+\headcommand {\slideentry {2}{1}{2}{36/36}{Original topology illustration}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {36}{36}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{1}{3}{37/37}{Original topology illustration}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {37}{37}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{1}{4}{38/38}{Original topology illustration}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {38}{38}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{1}{4}{39/40}{Original topology illustration}{0}}
+\headcommand {\slideentry {2}{1}{5}{39/39}{Original topology illustration}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {39}{40}}
+\headcommand {\beamer@framepages {39}{39}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{1}{5}{41/42}{Original topology illustration}{0}}
+\headcommand {\beamer@sectionpages {35}{39}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {41}{42}}
+\headcommand {\beamer@subsectionpages {35}{39}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {34}{42}}
+\headcommand {\sectionentry {3}{Results}{40}{Results}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {34}{42}}
+\headcommand {\beamer@subsectionpages {40}{39}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {3}{Results}{43}{Results}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{40}{Performance comparison between topologies}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {43}{42}}
+\headcommand {\slideentry {3}{1}{1}{40/44}{Performance comparison between topologies}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{3}{1}{43}{Performance comparison between topologies}}
+\headcommand {\beamer@framepages {40}{44}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{1}{1}{43/44}{Performance comparison between topologies}{0}}
+\headcommand {\slideentry {3}{1}{2}{45/45}{Performance comparison between topologies}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {43}{44}}
+\headcommand {\beamer@framepages {45}{45}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{1}{2}{45/46}{Performance comparison between topologies}{0}}
+\headcommand {\slideentry {3}{1}{3}{46/46}{Performance comparison between topologies}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {45}{46}}
+\headcommand {\beamer@framepages {46}{46}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{1}{3}{47/49}{Performance comparison between topologies}{0}}
+\headcommand {\slideentry {3}{1}{4}{47/47}{Performance comparison between topologies}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {47}{49}}
+\headcommand {\beamer@framepages {47}{47}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {43}{49}}
+\headcommand {\beamer@subsectionpages {40}{47}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{3}{2}{50}{Layer training rate comparison between topologies}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{48}{Layer training rate comparison between topologies}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{2}{1}{50/50}{Layer training rate comparison between topologies}{0}}
+\headcommand {\slideentry {3}{2}{1}{48/48}{Layer training rate comparison between topologies}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {50}{50}}
+\headcommand {\beamer@framepages {48}{48}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{2}{2}{51/52}{Layer training rate comparison between topologies}{0}}
+\headcommand {\slideentry {3}{2}{2}{49/49}{Layer training rate comparison between topologies}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {51}{52}}
+\headcommand {\beamer@framepages {49}{49}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{2}{3}{53/58}{Layer training rate comparison between topologies}{0}}
+\headcommand {\slideentry {3}{2}{3}{50/55}{Layer training rate comparison between topologies}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {53}{58}}
+\headcommand {\beamer@framepages {50}{55}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {43}{58}}
+\headcommand {\beamer@sectionpages {40}{55}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {50}{58}}
+\headcommand {\beamer@subsectionpages {48}{55}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {4}{Directions for future research}{59}{Directions for future research}{0}}
+\headcommand {\sectionentry {4}{Directions for future research}{56}{Directions for future research}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {4}{0}{1}{59/62}{}{0}}
+\headcommand {\slideentry {4}{0}{1}{56/59}{}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {59}{62}}
+\headcommand {\beamer@framepages {56}{59}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {59}{62}}
+\headcommand {\beamer@sectionpages {56}{59}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {59}{62}}
+\headcommand {\beamer@subsectionpages {56}{59}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {5}{Acknowledgments}{63}{Acknowledgments}{0}}
+\headcommand {\sectionentry {5}{Acknowledgments}{60}{Acknowledgments}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{0}{1}{63/63}{}{0}}
+\headcommand {\slideentry {5}{0}{1}{60/60}{}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {63}{63}}
-\headcommand {\beamer@partpages {1}{63}}
-\headcommand {\beamer@subsectionpages {63}{63}}
-\headcommand {\beamer@sectionpages {63}{63}}
-\headcommand {\beamer@documentpages {63}}
-\headcommand {\gdef \inserttotalframenumber {21}}
+\headcommand {\beamer@framepages {60}{60}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{2}{61/61}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {61}{61}}
+\headcommand {\beamer@partpages {1}{61}}
+\headcommand {\beamer@subsectionpages {60}{61}}
+\headcommand {\beamer@sectionpages {60}{61}}
+\headcommand {\beamer@documentpages {61}}
+\headcommand {\gdef \inserttotalframenumber {24}}

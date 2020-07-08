@@ -13,7 +13,7 @@
 \bibliography{references}
 
 \title{Layer-skipping connections facilitate training of layered networks using equilibrium propagation.}
-\author{Jimmy Gammell \and Sae Woo Nam \and Adam N. McCaughan}
+\author{\underline{Jimmy Gammell} \and Sae Woo Nam \and Adam N. McCaughan}
 \date{July 28, 2020}
 
 \begin{document}
@@ -27,11 +27,27 @@
 \frametitle{Motivation}
 \begin{itemize}
 	\item<1-> Seek to implement deep learning in neuromorphic analog hardware
-	\item<2-> Want learning framework requiring simple hardware
+	\item<2-> Want learning framework usable on simple hardware
 	\begin{itemize}
 		\item<3-> Neurons and connections perform few distinct tasks
 	\end{itemize}
 \end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Background: equilibrium propagation}
+\begin{itemize}
+			\item<1-> Equilibrium propagation: a biologically motivated learning framework
+			\begin{itemize}
+				\item<2-> Gradient descent on cost function (alternative to backpropagation)
+				\item<3-> Evolve to minimum of energy function (equilibrium)
+			\end{itemize}
+			\item<4-> Each neuron has state - function of states of neighbors
+			\begin{itemize}
+				\item<5-> Like in Hopfield network
+			\end{itemize}
+\end{itemize}
+\blfootnote{Scellier and Bengio, Equilibrium Propagation: Bridging the Gap Between Energy-Based Models and Backpropagation}
 \end{frame}
 
 \begin{frame}
@@ -42,20 +58,14 @@
 	\end{column}
 	\begin{column}{.5\textwidth}
 		\begin{itemize}
-			\item<1-> Equilibrium propagation: a biologically motivated learning framework
+			\item<1-> First phase of training: free phase
 			\begin{itemize}
-				\item<2-> Gradient descent on cost function (alternative to backpropagation)
-				\item<3-> Energy-based networks, e.g. continuous Hopfield network
-			\end{itemize}
-			\item<4-> First phase of training: free phase
-			\begin{itemize}
-				\item<5-> Evolve to equilibrium for input
-				\item<6-> Prediction: output activations at equilibrium
+				\item<2-> Evolve to equilibrium for input
+				\item<3-> Prediction: output activations at equilibrium
 			\end{itemize}
 		\end{itemize}
 	\end{column}
 \end{columns}
-\blfootnote{Scellier and Bengio, Equilibrium Propagation: Bridging the Gap Between Energy-Based Models and Backpropagation}
 \end{frame}
 
 \begin{frame}
@@ -82,10 +92,10 @@
 \begin{itemize}
 	\item<1-> Advantageous due to simplicity of neurons and connections
 	\begin{itemize}
-		\item<2-> One computation in both phases of training
-		\item<3-> One type of information to transmit in both phases of training
-		\item<4-> Biologically-plausible (relative to backpropagation)
-		\item<5-> Implementable in neuromorphic analog hardware
+		\item<2-> Implementable in neuromorphic analog hardware
+		\item<3-> Biologically-plausible (relative to backpropagation)
+		\item<4-> Neurons perform same task in both phases of training
+		\item<5-> Same connections usable in both phases of training
 	\end{itemize}
 \end{itemize}
 \end{frame}
@@ -104,7 +114,7 @@
 				\item<3-> Bit-depth issues
 			\end{itemize}
 			\item<4-> Need to solve - deep networks better than shallow networks
-			\item<5-> Not yet solved in simple, biologically-plausible manner
+			\item<5-> Solved for digital computers, but no simple solution for analog implementations
 		\end{itemize}
 	\end{column}
 \end{columns}
@@ -128,7 +138,6 @@
 				\item<5-> Inconvenient in neuromorphic hardware
 				\item<6-> Seems unlikely in biological systems
 			\end{enumerate}
-			\item<7-> Problem can be mitigated by instead using topological modification based on layer-skipping connections
 		\end{itemize}
 	\end{column}
 \end{columns}
@@ -155,8 +164,8 @@
 	\end{column}
 	\begin{column}{.4\textwidth}
 		\begin{itemize}
-			\item<1-> From original paper
-			\item<2-> Per-layer learning rates
+			\item From original paper
+			\item Per-layer learning rates
 		\end{itemize}
 	\end{column}
 	\end{columns}
@@ -170,8 +179,8 @@
 		\end{column}
 		\begin{column}{.4\textwidth}
 			\begin{itemize}
-			\item<1-> Starting point: original topology
-			\item<2-> One learning rate for all layers
+			\item Starting point: original topology
+			\item One learning rate for all layers
 			\end{itemize}
 		\end{column}
 	\end{columns}
@@ -197,8 +206,8 @@
 		\end{column}
 		\begin{column}{.4\textwidth}
 			\begin{itemize}
-			\item<1-> Consider each connection
-			\item<2-> Remove with probability $p$
+			\item Consider each connection
+			\item Remove with probability $p$
 			\end{itemize}
 		\end{column}
 	\end{columns}
@@ -211,8 +220,8 @@
 		\end{column}
 		\begin{column}{.4\textwidth}
 			\begin{itemize}
-			\item<1-> For each removed connection, randomly connect a different pair
-			\item<2-> No connections within input or output layers
+			\item For each removed connection, randomly connect a different pair
+			\item No connections within input or output layers
 			\end{itemize}
 		\end{column}
 	\end{columns}
@@ -221,6 +230,20 @@
 \section{Results}
 \subsection{Performance comparison between topologies}
 \begin{frame}
+\frametitle{Results}
+\begin{itemize}
+	\item<1-> Experiments on MNIST with networks using our topology
+	\begin{itemize}
+		\item<2-> Fast training
+		\item<3-> Able to observe effect of variety of changes
+	\end{itemize}
+	\item<4-> Speeds up training
+	\item<5-> Mitigates vanishing gradient problem
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
 	\frametitle{Results: training error of layered network with per-layer learning rates}
 	\begin{columns}
 	\begin{column}{.6\textwidth}
@@ -228,8 +251,8 @@
 	\end{column}
 	\begin{column}{.4\textwidth}
 	\begin{itemize}
-		\item<1-> Baseline performance: network from original paper
-		\item<2-> Per-layer learning rates
+		\item Network with per-layer rates
+		\item Evaluated on MNIST
 	\end{itemize}
 	\end{column}
 	\end{columns}
@@ -242,8 +265,8 @@
 	\end{column}
 	\begin{column}{.4\textwidth}
 	\begin{itemize}
-		\item<1-> Network with one global learning rate
-		\item<2-> Training slows down
+		\item Network with one global learning rate
+		\item Training slows down
 	\end{itemize}
 	\end{column}
 	\end{columns}
@@ -256,9 +279,9 @@
 	\end{column}
 	\begin{column}{.4\textwidth}
 	\begin{itemize}
-		\item<1-> Network with our topology (still one global learning rate)
-		\item<2-> Trains significantly faster than layered network
-		\item<3-> Performance similar to original network
+		\item Network with our topology (still one global learning rate)
+		\item Trains significantly faster than layered network
+		\item Performance similar to original network
 	\end{itemize}
 	\end{column}
 	\end{columns}
@@ -285,8 +308,8 @@
 	\end{column}
 	\begin{column}{.4\textwidth}
 		\begin{itemize}
-			\item<1-> Our topology mitigates vanishing gradient problem
-			\item<2-> Shallowest weights train faster due to lack of layer-skipping connections to target
+			\item Our topology mitigates vanishing gradient problem
+			\item Shallowest weights train faster due to lack of layer-skipping connections to target
 		\end{itemize}
 	\end{column}
 	\end{columns}
@@ -311,7 +334,7 @@
 	\frametitle{Directions for future research}
 	\begin{itemize}
 		\item<1-> Try on harder datasets (e.g. CIFAR, ImageNet) where depth is very important
-		\item<2-> Effect of $p$ on test error
+		\item<2-> Effect of $p$ on network performance
 		\item<3-> Effectiveness on deeper networks
 		\item<4-> Try training a network with added layer-skipping connections, then removing them afterwards
 	\end{itemize}
@@ -323,11 +346,11 @@
 \begin{columns}
 \begin{column}{.48\textwidth}
 	\begin{itemize}
-		\item Sonia Buckley
-		\item Zach Grey
 		\item Adam N. McCaughan
 		\item Sae Woo Nam
+		\item Sonia Buckley
 		\item Alex Tait
+		\item Zach Grey
 	\end{itemize}
 \end{column}
 \begin{column}{.48\textwidth}
@@ -336,6 +359,13 @@
 	\includegraphics[width=.8\textwidth]{figures/cu_logo.jpg}
 \end{column}
 \end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Thanks!}
+	\begin{itemize}
+		\item Questions? Email me at \url{jimmy.i.gammell@gmail.com}
+	\end{itemize}
 \end{frame}
 
 \end{document}

@@ -2,16 +2,16 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Title}{1}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{Solution}{34}{0}{2}
+\beamer@sectionintoc {2}{Solution}{35}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {2}{1}{Original topology illustration}{34}{0}{2}
+\beamer@subsectionintoc {2}{1}{Original topology illustration}{35}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Results}{43}{0}{3}
+\beamer@sectionintoc {3}{Results}{40}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{1}{Performance comparison between topologies}{43}{0}{3}
+\beamer@subsectionintoc {3}{1}{Performance comparison between topologies}{40}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{2}{Layer training rate comparison between topologies}{50}{0}{3}
+\beamer@subsectionintoc {3}{2}{Layer training rate comparison between topologies}{48}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Directions for future research}{59}{0}{4}
+\beamer@sectionintoc {4}{Directions for future research}{56}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Acknowledgments}{63}{0}{5}
+\beamer@sectionintoc {5}{Acknowledgments}{60}{0}{5}
